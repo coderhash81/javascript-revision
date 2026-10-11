@@ -38,7 +38,7 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
-const id = Symbol('123')
+const id = Symbol('123')// uniqueness
 const anotherId = Symbol('123')
 
 console.log(id === anotherId);
@@ -57,9 +57,9 @@ let myObj = {
     age: 22,
 }
 
-const myFunction = function(){
+const myFunction = function(){ // in javascript we put function in variables
     console.log("Hello world");
-}
+} // return function datatype but we called object function
 
 console.log(typeof anotherId);
 
